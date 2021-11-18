@@ -1,0 +1,41 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 0.8s;
+  text-align: center;
+  padding: 100px;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;0
+  bottom: 0;
+  right: 0;
+ 
+}
+
+.overlay img {
+  max-height: 100%;
+
+
+}
